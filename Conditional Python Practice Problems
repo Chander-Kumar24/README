@@ -1,0 +1,144 @@
+#python Project 
+"""number=int(input("Enter the number : "))
+#let's analyze the number 
+if number<0 :
+    print("Negative")
+elif number==0:
+    print("Zeo")
+else:
+    print("Positive")"""
+
+#Areas of Rectangles 
+
+"""length1=float(input("Enter the length of Rectangle 1 : "))
+length2=float(input("Enter the length of Rectangle 2 : "))
+width1=float(input("enter the width of Rectangle 1 : "))
+width2=float(input("enter the width of rectangle 2 : "))
+Area1=length1*width1
+Area2=length2*width2
+if Area1>Area2:
+    print("Rectangle 1 has greater area than rectangle 2")
+else:
+   print("Rectangle 2 has greater area than rectangle 1") 
+"""
+
+#Quarter of the Year
+
+"""month=int(input("enter the month as a number between (1-12) : "))
+if(0<month<=3):
+    print("First Quarter")
+elif(3<month<=6):
+    print("Second Quarter")
+elif(6<month<=9):
+    print("Third quarter")
+elif(9<month<=12):
+    print("Fourth Quarter.")
+else:
+    print("The month does not exist.")"""
+
+# Roman Numerals
+"""
+number=int(input("enter the number (1-10) : "))
+if number==1:
+    print("I")
+elif number==2:
+    print("II")
+elif number==2:
+    print("II")
+elif number==3:
+    print("III")
+elif number==4:
+    print("IV")
+elif number==5:
+    print("V")
+elif number==6:
+    print("VI")
+elif number==7:
+    print("VII")
+elif number==8:
+    print("VIII")
+elif number==2:
+    print("IX")
+elif number==10:
+    print("X")
+else:
+    print("Number out of range.")"""
+
+
+
+#Mass & weight
+"""
+mass=float(input("enter the mass of an object. : "))
+weight=mass*(9.8)
+if weight>500:
+    print("It is too heavy")
+elif weight<100:
+    print("It is too light.")"""
+
+
+
+#Magic dates 
+"""month=int(input("Enter the month : "))
+day=int(input("enter day : "))
+year=int(input("enter two digit year : "))
+if month*day==year:
+    print("Date is Magic.")
+else:
+    print("Date is not magic.")"""
+
+
+#Grade Calculator
+"""test_1=float(input("enter the score of test 1 : "))
+test_2=float(input("enter the score of test 2 : "))
+Main_exam=float(input("enter the marks of main exam : "))
+total_score=test_1+test_2+Main_exam
+if 0<=test_1<=25 and 0<=test_2<=25 and 0<=Main_exam<=50 :
+    print("The marks are valid. ")
+    if total_score < 50 or Main_exam<25:
+        print("Fail.")
+    elif total_score>80:
+        print("Distinction.")
+    elif 60<total_score<80:
+        print("Credit")
+    elif total_score <60:
+        print("Pass.")
+else:
+    print("Marks are not valid.")"""
+
+
+ #Hot Dog Cookout Calculator
+
+"""import math
+
+# Constants
+hotdogs_per_package = 10
+buns_per_package = 8
+
+# Input from user
+try:
+    num_people = int(input("Enter the number of people attending the cookout: "))
+    hotdogs_per_person = int(input("Enter the number of hot dogs each person will be given: "))
+
+    # Calculate total hot dogs and buns needed
+    total_hotdogs_needed = num_people * hotdogs_per_person
+    total_buns_needed = num_people * hotdogs_per_person
+
+    # Calculate packages needed
+    packages_hotdogs = math.ceil(total_hotdogs_needed / hotdogs_per_package)
+    packages_buns = math.ceil(total_buns_needed / buns_per_package)
+
+    # Calculate leftovers
+    leftover_hotdogs = packages_hotdogs * hotdogs_per_package - total_hotdogs_needed
+    leftover_buns = packages_buns * buns_per_package - total_buns_needed
+
+    # Display results
+    print(f"Minimum number of packages of hot dogs required: {packages_hotdogs}")
+    print(f"Minimum number of packages of hot dog buns required: {packages_buns}")
+    print(f"Number of hot dogs that will be left over: {leftover_hotdogs}")
+    print(f"Number of hot dog buns that will be left over: {leftover_buns}")
+
+except ValueError:
+    print("Please enter valid numbers for the number of people and hot dogs.")
+
+"""
+
