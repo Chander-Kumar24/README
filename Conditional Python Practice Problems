@@ -141,4 +141,17 @@ except ValueError:
     print("Please enter valid numbers for the number of people and hot dogs.")
 
 """
+#Money Counting Game.
+value_penny = 0.01
+value_nickel = 0.05
+value_dime = 0.10
+value_quarter = 0.25
 
+pennies = int(input("Enter the number of pennies: "))
+nickels = int(input("Enter the number of nickels: "))
+dimes = int(input("Enter the number of dimes: "))
+quarters = int(input("Enter the number of quarters: "))
+
+total=premises*value_penny+nickels*value_nickel+dimes*value_dime+quarters*value_quarter
+if total >= 1:
+    print("Congratulation! you won the dollar.")
